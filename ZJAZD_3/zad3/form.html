@@ -1,0 +1,13 @@
+<form action="dirOperations.php" method="post">
+    <label for="path">Path:</label><br>
+    <input type="text" id="path" name="path" required><br>
+    <label for="directory">Directory:</label><br>
+    <input type="text" id="directory" name="directory" required><br>
+    <label for="operation">Operation:</label><br>
+    <select id="operation" name="operation">
+        <option value="read">Read</option>
+        <option value="delete">Delete</option>
+        <option value="create">Create</option>
+    </select><br>
+    <input type="submit" value="Submit">
+</form>
